@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+## Guia de ejecución de aplicación en React ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pre-requisitos:
+Node.js y npm: Instalar Node.js (versión 14.0.0 o posterior) y npm. Puedes descargarlos desde el sitio web oficial de Node.js
 
-## Available Scripts
+1. Clonar o descarga el proyecto:   
+Si aún no lo has hecho, obtén una copia del código del proyecto atravez de este repositorio https://github.com/marina-b-venturino/LinkedIn-Home-Page. Puedes clonar el proyecto desde un sistema de control de versiones como Git o descargar los archivos del proyecto directamente.
 
-In the project directory, you can run:
+2. Abrir una terminal:
+Abrir una ventana de terminal o un símbolo del sistema en su sistema operativo. Navegue hasta el directorio raíz del proyecto React con el comando "cd".
 
-### `npm start`
+3. Instalar dependencias:
+Ejecute el siguiente comando en su terminal para instalar todas las dependencias necesarias para su proyecto:
+"npm install"
+Este comando descargará e instalará todos los paquetes que figuran en el archivo "package.json". Esto puede tardar unos minutos según la velocidad de tu conexión a Internet.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Iniciar el servidor de desarrollo:
+Una vez instaladas las dependencias, puedes iniciar el servidor de desarrollo utilizando el siguiente comando:
+"npm start"
+Este comando iniciará el servidor de desarrollo y abrirá en el navegador web predeterminado la siguiente ruta "http://localhost:3000". Aquí es donde se ejecutará la aplicación en React.   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Hot Reloading:
+El servidor de desarrollo admite el hot realoding. Esto significa que cualquier cambio que se realice en el proyecto en React se reflejará automáticamente en el navegador sin necesidad de actualizar la página manualmente. Esto permite un flujo de trabajo de desarrollo más rápido.
 
-### `npm test`
+6. Building para producción:
+Cuando esté listo para implementar su aplicación React en un entorno de producción, puede crear una versión optimizada lista para producción utilizando el siguiente comando:
+"npm run build"
+Este comando creará una compilación para producción de su aplicación en la carpeta "build". Esta compilación suele ser más pequeña y está minimizada para un mejor rendimiento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Notas adicionales:
+Puedes consultar la documentación oficial de "Create React App" para obtener información más detallada sobre los scripts y configuraciones disponibles.
